@@ -1,5 +1,4 @@
 # Semana2LaunchX-HTML
-
 Caso: Pastelería
 
 Descripción:

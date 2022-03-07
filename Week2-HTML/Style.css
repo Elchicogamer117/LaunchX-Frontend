@@ -1,3 +1,19 @@
+
+.tituloPrincipal{
+    font-family: 'Bello Pro';
+    font-size: 100px;
+    color: #b90cc5;
+}
+
+.coursiva{
+    font-family: 'Bello Pro';
+    font-size: 40px;
+}
+
+.helve{
+    font-family: 'Helvetica';
+    font-size: 20px;
+}
 .admin-user{
     color: #aa1b09 !important;
 }
@@ -24,6 +40,11 @@
     object-fit: cover; 
     filter: grayscale(80%);
 
+}
+
+#galeria .carousel-inner img{
+    max-height: 80vh;
+    object-fit: cover; 
 }
 
 #carousel {

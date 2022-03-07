@@ -1,0 +1,47 @@
+.admin-user{
+    color: #aa1b09 !important;
+}
+
+.inicioButton{
+    color: #F02EFF !important;
+}
+.btn-outline-infomine {
+    background-color: #F02EFF;
+    color:  white !important;
+
+}
+
+.btn-outline-infomine:hover {
+    background-color: #b90cc5;
+}
+
+#header img {
+    width: 50px;
+}
+
+#main .carousel-inner img{
+    max-height: 80vh;
+    object-fit: cover; 
+    filter: grayscale(80%);
+
+}
+
+#carousel {
+    position: relative;
+}
+
+#carousel .overlay {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+#footer{
+    background-color: #F02EFF;
+    color: white;
+}
+

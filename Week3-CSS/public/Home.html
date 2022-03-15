@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/css/tailwind.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shorcut icon" href="../imagenes/logoT.gif">
+    
+    <title>Vaccination</title>
+</head>
+<body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js" integrity="sha512-yFjZbTYRCJodnuyGlsKamNE/LlEaEAxSUDe5+u61mV8zzqJVFOH7TnULE2/PP/l5vKWpUNnF4VGVkXh3MjgLsg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
+
+  <nav class="flex items-end justify-end flex-wrap bg-white p-8 table-fixed">
+    <div class="flex items-center flex-shrink-0 text-primary mr-6 ml-5">
+      
+      <lord-icon
+          src="https://cdn.lordicon.com/tqywkdcz.json"
+          trigger="morph-two-way"
+          colors="primary:#ffd015,secondary:#3555d3,tertiary:#ffd015,quaternary:#3555d3"
+          style="width:50px;height:50px"> 
+      </lord-icon>
+      <span class="font-bold text-2xl ">Vaccination</span>
+    </div>
+    <div class="block lg:hidden">
+      <button class="flex items-center px-3 py-2 border rounded text-blue-200 border-blue-400 hover:text-blue-500 hover:border-white">
+        <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+      </button>
+    </div>
+    <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto text-right">
+      <div class="text-lg lg:flex-grow">
+        <a href="#Database" class="buttonsNavBar">Database</a>
+        <a href="#Education" class="buttonsNavBar">Education</a>
+        <a href="#News" class="buttonsNavBar">News</a>
+        <a href="#Regulation" class="buttonsNavBar">Regulation</a>
+        <button class="buttonPrincipal p-2">
+            Hoax Buster
+        </button>
+      </div>
+      
+    </div>
+  </nav>
+
+  <section class="w-full h-full">
+<!--         Database      -->
+         
+    <div id="Database" class="w-full h-screen bg-no-repeat bg-cover flex flex-col" style="background-image: url(../imagenes/enfermeraV2.png);">
+   <!--         V1     
+      <div class="w-6/12 h-5/12 ">
+        <p class="text-6xl text-secondary font-sans font-bold ml-10 mt-16">Fight Virus</p>
+        <p class="text-6xl text-secondary font-sans font-bold ml-12 mt-2">With Vaccines</p>
+        
+        
+      </div>
+      <div class="w-5/12 h-2/6 bg-cyan-100 flex flex-col m-2 ">
+        
+        <div class="w-full h-full bg-white ">
+          <p class="text-xl text-terciary font-sans font-semibold p-10">Let's stop this pandemic by killing the virus with a vaccine, dont let yourself and your family get infected</p>
+        </div>
+        <div class="w-full h-full bg-white flex ">
+          <div class="w-full h-full bg-black flex ">
+            <p class="text-lg text-primary font-sans font-semibold p-8"><i class="fa-solid fa-shield iconColorYellow bg-backyellow p-2 rounded-md"></i> Best protection </p>
+          </div>
+          <div class="w-full h-full  ">
+            <p class="text-lg text-primary font-sans font-semibold mt-8"><i class="fa-solid fa-star iconColorYellow bg-backyellow rounded-md p-2 "></i> Selected Vaccines </p>
+          </div>
+        </div>
+      </div>     -->
+
+      
+
+      <div class="grid grid-flow-row lg:grid-cols-4 gap-4 px-28 mt-4">
+        <div class="col-span-2 ">
+          <p class="text-6xl text-secondary font-sans font-bold ml-10 mt-16">Fight Virus</p>
+          <p class="text-6xl text-secondary font-sans font-bold ml-12 mt-2">With Vaccines</p>
+
+          <p class="text-xl text-terciary font-sans font-semibold p-10 mr-36">Let's stop this pandemic by killing the virus with a vaccine, dont let yourself and your family get infected</p>
+        </div>
+        <div class="col-1 lg:col-span-2 "></div>
+        <div class=" flex"  >
+          <div class="w-1/4 h-full  py-4 text-right ">
+            <i class="fa-solid fa-shield iconColorYellow bg-backyellow p-2 rounded-md"></i>
+          </div>
+          <div class="w-3/4 h-full  ">
+            <p class="text-lg text-secondary font-sans font-semibold ml-2 py-4"> Best protection </p>
+          </div>
+        </div>
+        <div class=" flex">
+          <div class="w-1/4 h-full  py-4 text-right ">
+            <i class="fa-solid fa-star iconColorYellow bg-backyellow p-2 rounded-md"></i>
+          </div>
+          <div class="w-3/4 h-full  ">
+            <p class="text-lg text-secondary font-sans font-semibold ml-2 py-4"> Selected Vaccines </p>
+          </div>
+        </div>
+        <div class="col-1 lg:col-span-2 "></div>
+        <div class="col-span-3  flex">
+          <div class="w-1/12 h-full text-right  mt-4 lg:mt-24">
+            <i class="fa-solid fa-clock bg-backblue iconColorBlue iconEffect rounded-md p-2"></i>
+          </div>
+          <div class="w-3/4 h-full  ">
+            <p class="text-xl text-primary font-sans font-semibold inline-block mt-4 lg:mt-24 mb-6 ml-2"> Schedule your vaccinations </p>
+          </div>
+        </div>
+      </div> 
+      
+
+      <div class="w-9/12 h-auto lg:h-1/6 rounded-md bg-white shadow-2xl opacity-90 ml-12 flex space-x-4">
+        <div class="w-full h-full " >
+          <p class="text-sm lg:text-base text-terciary font-sans font-semibold mt-2 lg:mt-10 ml-6"> <i class="fa-solid fa-location-dot iconColorBlue bg-backblue rounded-md p-1"></i> Location </p>
+          <p class="text-base lg:text-2xl text-secondary font-sans font-bold mt-0 ml-10"> Jakarta Utara </p>
+        </div>
+        <div class="w-full h-full " >
+          <p class="text-sm lg:text-base text-terciary font-sans font-semibold mt-2 lg:mt-10 ml-6"> <i class="fa-solid fa-calendar-week iconColorBlue bg-backblue rounded-md  p-1"></i> Date </p>
+          <p class="text-base lg:text-2xl text-secondary font-sans font-bold mt-0 ml-10"> 8 July 2021 </p>
+        </div>
+        <div class="w-full h-full " >
+          <p class="text-sm lg:text-base text-terciary font-sans font-semibold mt-2 lg:mt-10 ml-6"> <i class="fa-solid fa-syringe iconColorBlue bg-backblue rounded-md  p-1"></i></i> Vaccine Type </p>
+          <p class="text-base lg:text-2xl text-secondary font-sans font-bold mt-0 ml-12"> Moderna </p>
+        </div>
+        <div class="w-full h-full items-center py-4 lg:py-8" >
+          <button class="buttonPrincipal py-2 lg:p-4">
+            Summit
+          </button>
+        </div>
+        
+        
+
+      </div>
+
+    </div>
+<!--         /Database      -->
+<!--         Logos vacunas   Version 1   
+    
+    <div class="scrollbar w-full h-48 lg:flex mt-6 ">
+      <div class="lg:w-16 lg:h-full bg-white "></div>
+      <div class="h-1/4 w-full lg:h-full  ">
+        <img class="p-8 grayscale opacity-10 hover:opacity-100 hover:grayscale-0" src="../imagenes/Astrazeneca.png" alt="Astrazeneca">
+
+      </div>
+      <div class="h-1/4 w-full lg:h-full ">
+        <img class="p-16 grayscale opacity-10 hover:opacity-100 hover:grayscale-0" src="../imagenes/Sinovac.png" alt="Sinovac">
+
+      </div>
+      <div class="w-h-1/4 w-full lg:h-full ">
+        <img class="py-12 px-16 grayscale opacity-10 hover:opacity-100 hover:grayscale-0" src="../imagenes/Pfizer.png" alt="Pfizer">
+
+      </div>
+      <div class="h-1/4 w-full lg:h-full ">
+        <img class="p-16 grayscale opacity-20 hover:opacity-100 hover:grayscale-0" src="../imagenes/Moderna.png" alt="Moderna">
+
+      </div>
+      <div class="w-16 h-full bg-white "></div>
+
+    </div>
+    
+    
+   /Logos vacunas      -->
+
+   <!--         Logos vacunas GRID      -->
+
+    <div class="grid grid-cols-2 lg:grid-cols-4  mt-12 lg:mt-2 px-28 gap-2">
+      <div>
+        <img class="py-12 px-4 grayscale opacity-10 hover:opacity-100 hover:grayscale-0" src="../imagenes/Astrazeneca.png" alt="Astrazeneca">
+      </div>
+      <div>
+        <img class="py-12 px-4 grayscale opacity-10 hover:opacity-100 hover:grayscale-0" src="../imagenes/Sinovac.png" alt="Sinovac">
+      </div>
+      <div>
+        <img class="py-12 px-4 grayscale opacity-10 hover:opacity-100 hover:grayscale-0" src="../imagenes/Pfizer.png" alt="Pfizer">
+      </div>
+      <div>
+        <img class="py-12 px-4 grayscale opacity-20 hover:opacity-100 hover:grayscale-0" src="../imagenes/Moderna.png" alt="Moderna">
+      </div>
+    </div>
+<!--         /Logos vacunas GRID      -->
+
+
+<!--         Education      -->
+    <div id="Education" >
+      <div class="w-full h-auto px-28 ">
+        <p  class="text-4xl text-secondary font-sans font-bold px-12 py-4">Why shoul I vaccine?</p>
+        <div class="w-full h-full ">
+          <div class="w-1/2 h-full">
+            <p class="text-xl text-terciary font-sans font-semibold ml-12 mr-12"> In order to avoid any doubts about getting the COVID-19 vaccine, identify the followong 4 benefits of COVID-19 vaccination:</p>
+
+          </div>
+          <div class="w-1/2 h-full"></div>
+
+        </div>
+        
+      </div>
+      <!--  Scroll  -->
+      <div class="w-auto h-96  place-content-center mt-4 overflow-x-auto flex space-x-8 scrollbar-hide">
+
+        <div class="Card">
+          <div class="w-full h-1/4 rounded-t-lg p-4">
+            <i id="" class="fa-solid fa-viruses iconColorBlue bg-backblue rounded-md iconSize p-3 iconEffect "></i>
+          </div>
+          <div class="w-full h-1/4 rounded-t-lg bg-white px-4">
+            <p class="text-2xl text-secondary font-sans font-semibold  mt-0"> Minimize the spread of viruses </p>
+          </div>
+          <div class="w-full h-1/2">
+            <p class="text-sm text-terciary font-sans font-semibold p-4">Vaccine has been proven effective to prevent someone from getting infected with Coronavirus</p>
+          </div>
+        </div>
+
+        <div class="Card">
+          <div class="w-full h-1/4 rounded-t-lg p-4">
+            <i class="fa-solid fa-shield-virus iconColorBlue bg-backblue rounded-md iconSize p-3 iconEffect"></i>
+          </div>
+          <div class="w-full h-1/4 rounded-t-lg bg-white px-4">
+            <p class="text-2xl text-secondary font-sans font-semibold  mt-0"> Forming antibodies </p>
+          </div>
+          <div class="w-full h-1/2">
+            <p class="text-sm text-terciary font-sans font-semibold p-4">COVID-19 vaccine proven to help shape antibody response for immune system</p>
+          </div>
+        </div>
+
+        <div class="Card">
+          <div class="w-full h-1/4 rounded-t-lg p-4">
+            <i class="fa-solid fa-users iconColorBlue bg-backblue rounded-md iconSize p-3 iconEffect"></i>
+          </div>
+          <div class="w-full h-1/4 rounded-t-lg  ml-4 ">
+            <p class="text-2xl text-secondary font-sans font-semibold  mt-0"> Protecting  </p>
+            <p class="text-2xl text-secondary font-sans font-semibold  mt-0">  people nearby </p>
+          </div>
+          <div class="w-full h-1/2">
+            <p class="text-sm text-terciary font-sans font-semibold p-4 mr-6">The benefits of COVID-19 vaccination are the vaccine that we get can also help protect people around us</p>
+          </div>
+        </div>
+
+        <div class="Card">
+          <div class="w-full h-1/4 rounded-t-lg p-4">
+            <i class="fa-solid fa-head-side-virus iconColorBlue bg-backblue rounded-md iconSize p-3 iconEffect"></i>
+          </div>
+          <div class="w-full h-1/4 rounded-t-lg bg-white px-4">
+            <p class="text-2xl text-secondary font-sans font-semibold  mt-0"> Creating group immunity </p>
+          </div>
+          <div class="w-full h-1/2">
+            <p class="text-sm text-terciary font-sans font-semibold p-4">COVID-19 vaccination is also beneficial for creating group immunity or herd immunity</p>
+          </div>
+        </div>
+
+      </div>
+
+      
+      
+    </div>
+<!--         /Education      -->
+
+<!--         News      -->
+    <div id="News" class="w-full h-screen bg-no-repeat bg-cover flex flex-col " style=" background-image: url(../imagenes/enfermera2.png) ; ">
+      <!-- Grid primer intento
+      <div class="grid grid-rows-1 lg:grid-rows-1 lg:grid-flow-col ">
+        <div class="h-2 lg:w-full lg:h-full">
+          <p  class="text-sm lg:text-4xl text-secondary opacity-20 font-sans font-bold px-4 lg:px-12 lg:ml-4">Preparation Before Vaccine</p>
+        </div>
+        <div>
+          <div class="w-full h-48 ">
+            <div class="w-full h-4 lg:h-28 " ></div>
+            <p  class="text-4xl text-secondary font-sans font-bold px-12 py-4">Preparation Before Vaccine</p>
+            <div class="w-full h-full flex">
+              <div class="w-full lg:w-5/6 h-full"> <p class="text-lg text-terciary font-sans font-semibold ml-12 ">The succes of vaccines is strongly influenced by the strength of the body's immune system. Therefore, there are several things that can be tried to make the COVID-19 vacinne work: </p></div>
+              <div class="w-0 lg:w-1/6 h-full "></div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+              -->
+
+      <div class="w-full h-16">
+
+      </div>        
+      <div class="grid grid-flow-row-dense lg:grid-rows-6 lg:grid-flow-col gap-2 px-12">
+        <div class=" row-span-1 lg:row-span-6 ">
+          <p  class="text-sm lg:text-4xl text-secondary opacity-0 font-sans font-bold px-14  bg-slate-500">White space, this is a text to divide the in middle the page</p>
+        </div>
+        <div class="col-span-1 ">
+          <p  class="text-4xl text-secondary font-sans font-bold ml-16 mt-10 ">Preparations Before Vaccine</p>
+        </div>
+        <div class="col-span-1 bg-white ">
+          <p class="text-xl text-terciary font-sans font-semibold ml-16 mr-48 ">The success of vaccines is strongly influenced by the strength of the body's immune system. Therefore, there are several things that can be tried to make the COVID-19 vacinne work: </p>
+        </div>
+        <div class="row-span-4 col-span-1  ">
+          <!--  Cards -->
+          
+          <div class="cardSmall ">
+            <div class="w-auto h-full p-3 ">
+              <i id="" class="fa-solid fa-champagne-glasses iconColorBlue bg-backblue rounded-md p-2 iconEffect "></i>
+            </div>
+            <div class="w-5/6 h-full mt-3 ">
+              <p class="text-lg text-secondary font-sans font-semibold  mt-0">  Avoid alcoholic beverages </p>
+            </div>
+            <div class="w-1/12 h-full mt-3 ">
+              <i id="" class="fa-solid fa-caret-down iconColorBlue bg-backblue rounded-md p-2 iconEffect "></i>
+            </div>
+          </div>
+
+          <div class="w-1/2 h-40 bg-white border border-blue-100 rounded-lg ml-24 mt-4 transform transition-all hover:scale-105 hover:shadow-lg hover:shadow-blue-100/50 ">
+           <div class="w-full h-1/3 flex">
+              <div class="w-auto h-full p-3 ">
+                <i id="" class="fa-solid fa-face-tired iconColorBlue bg-backblue rounded-md p-2 iconEffect "></i>
+              </div>
+              <div class="w-5/6 h-full mt-3 ">
+                <p class="text-lg text-secondary font-sans font-semibold  mt-0">  Avoid stress </p>
+              </div>
+              <div class="w-1/12 h-full mt-3 ">
+                <i id="" class="fa-solid fa-caret-down iconColorBlue bg-backblue rounded-md p-2 iconEffect "></i>
+              </div>
+           </div>
+           <div>
+            <p class="text-sm text-terciary font-sans font-medium ml-14 ">Stress has a profund effect on immune work. Moreover, prolonged stress can increase cortisol production and oxidative stress in the body </p>
+           </div>
+          </div>
+
+          <div class="cardSmall ">
+            <div class="w-auto h-full p-3 ">
+              <i id="" class="fa-solid fa-utensils iconColorBlue bg-backblue rounded-md p-2 iconEffect "></i>
+            </div>
+            <div class="w-5/6 h-full mt-3 ">
+              <p class="text-lg text-secondary font-sans font-semibold  mt-0">  Eat healthy food </p>
+            </div>
+            <div class="w-1/12 h-full mt-3 ">
+              <i id="" class="fa-solid fa-caret-down iconColorBlue bg-backblue rounded-md p-2 iconEffect "></i>
+            </div>
+          </div>
+
+          <div class="cardSmall ">
+            <div class="w-auto h-full p-3 ">
+              <i id="" class="fa-solid fa-bed iconColorBlue bg-backblue rounded-md p-2 iconEffect "></i>
+            </div>
+            <div class="w-5/6 h-full mt-3 ">
+              <p class="text-lg text-secondary font-sans font-semibold  mt-0">  Get enough sleep </p>
+            </div>
+            <div class="w-1/12 h-full mt-3">
+              <i id="" class="fa-solid fa-caret-down iconColorBlue bg-backblue rounded-md p-2 iconEffect "></i>
+            </div>
+          </div>
+
+          <div class="cardSmall ">
+            <div class="w-auto h-full p-3 ">
+              <i id="" class="fa-solid fa-dumbbell iconColorBlue bg-backblue rounded-md p-2 iconEffect "></i>
+            </div>
+            <div class="w-5/6 h-full mt-3 ">
+              <p class="text-lg text-secondary font-sans font-semibold  mt-0">  Exercise or physical activity </p>
+            </div>
+            <div class="w-1/12 h-full mt-3">
+              <i id="" class="fa-solid fa-caret-down iconColorBlue bg-backblue rounded-md p-2 iconEffect "></i>
+            </div>
+          </div>
+
+          
+
+        </div>
+      </div>
+
+    </div>
+
+<!--         /News      -->
+
+
+<!--         Regulation      -->      
+
+    <div id="Regulation" class="w-full h-screen bg-no-repeat bg-cover mt-4" style="background-image: url(../imagenes/enfermero.png);">
+
+      <div class="w-full h-24">
+
+      </div> 
+      <div class="grid grid-flow-row-dense lg:grid-rows-6 lg:grid-flow-col gap-2">
+        
+        <div class="col-span-1 ">
+          <p  class="text-4xl text-secondary font-sans font-bold ml-16 mt-10 ">Emergency Contact</p>
+        </div>
+        <div class="col-span-1 ">
+          <p class="text-xl text-terciary font-sans font-semibold ml-16 ">Contact one of the contacts below if you or your family feel unwell and have similar symptoms such as Covid-19, make sure you also take care of yourself before reporting to us: </p>
+        </div>
+        <div class="row-span-4 col-span-1   ">
+          <!--  Cards Phone -->
+          <div class="grid grid-cols-2 px-16 mt-12 gap-4  ">
+            <div class="cardPhone ">
+              <div class="w-full h-1/2 flex ">
+                <div class="w-1/3 h-full p-6">
+                  <i id="" class="fa-solid fa-phone-volume iconColorBlue bg-backblue rounded-md p-3 iconEffect iconSize "></i>
+                </div>
+                <div class="w-2/3 h-full">
+                  <p class="text-xl text-secondary font-sans font-semibold  mt-5 ml-3">  Call </p>
+                  <p class="text-sm text-terciary font-sans font-medium mt-1 ml-3 "> 343.117.2.17 </p>
+                </div> 
+              </div>
+              <div class="w-full h-1/2 mt-4 ml-6">
+                <button class="w-40 rounded-md text-lg font-bold  p-2 bg-backblue iconColorBlue  transition  duration-500 ease-in-out hover:bg-primary hover:shadow-lg hover:shadow-blue-500/50   hover:text-white transform hover:-translate-y-1 hover:scale-110  ">
+                  Call Now
+                </button>
+              </div>
+            </div>
+
+            <div class="cardPhone ">
+              <div class="w-full h-1/2 flex ">
+                <div class="w-1/3 h-full p-6">
+                  <i id="" class="fa-solid fa-comment-dots iconColorBlue bg-backblue rounded-md p-3 iconEffect iconSize "></i>
+                </div>
+                <div class="w-2/3 h-full">
+                  <p class="text-xl text-secondary font-sans font-semibold  mt-5 ml-3">  Chat </p>
+                  <p class="text-sm text-terciary font-sans font-medium mt-1 ml-3 "> 343.117.2.17 </p>
+                </div> 
+              </div>
+              <div class="w-full h-1/2 mt-4 ml-6">
+                <button class="w-40 rounded-md text-lg font-bold  p-2 bg-backblue iconColorBlue  transition  duration-500 ease-in-out hover:bg-primary hover:shadow-lg hover:shadow-blue-500/50   hover:text-white transform hover:-translate-y-1 hover:scale-110  ">
+                  Chat Now
+                </button>
+              </div>
+            </div>
+
+            <div class="cardPhone ">
+              <div class="w-full h-1/2 flex ">
+                <div class="w-1/3 h-full p-6">
+                  <i id="" class="fa-solid fa-video iconColorBlue bg-backblue rounded-md p-3 iconEffect iconSize "></i>
+                </div>
+                <div class="w-2/3 h-full">
+                  <p class="text-xl text-secondary font-sans font-semibold  mt-5 ml-3">  Video Call </p>
+                  <p class="text-sm text-terciary font-sans font-medium mt-1 ml-3 "> 343.117.2.17 </p>
+                </div> 
+              </div>
+              <div class="w-full h-1/2 mt-4 ml-6">
+                <button class="w-40 rounded-md text-lg font-bold  p-2 bg-backblue iconColorBlue  transition  duration-500 ease-in-out hover:bg-primary hover:shadow-lg hover:shadow-blue-500/50   hover:text-white transform hover:-translate-y-1 hover:scale-110  ">
+                  Video Call Now
+                </button>
+              </div>
+            </div>
+
+            <div class="cardPhone ">
+              <div class="w-full h-1/2 flex ">
+                <div class="w-1/3 h-full p-6">
+                  <i id="" class="fa-solid fa-envelope iconColorBlue bg-backblue rounded-md p-3 iconEffect iconSize "></i>
+                </div>
+                <div class="w-2/3 h-full">
+                  <p class="text-xl text-secondary font-sans font-semibold  mt-5 ml-3">  Message </p>
+                  <p class="text-sm text-terciary font-sans font-medium mt-1 ml-3 "> 343.117.2.17 </p>
+                </div> 
+              </div>
+              <div class="w-full h-1/2 mt-4 ml-6">
+                <button class="w-40 rounded-md text-lg font-bold  p-2 bg-backblue iconColorBlue  transition  duration-500 ease-in-out hover:bg-primary hover:shadow-lg hover:shadow-blue-500/50   hover:text-white transform hover:-translate-y-1 hover:scale-110  ">
+                  Message Now
+                </button>
+              </div>
+            </div>
+  
+  
+            
+            
+          </div>
+
+          
+
+          
+
+        </div>
+        <div class=" row-span-1 lg:row-span-6 ">
+          <p  class="text-sm lg:text-4xl text-secondary opacity-0 font-sans font-bold px-14  bg-slate-500">White space, this is a text to divide the in middle the page</p>
+        </div>
+      </div>
+
+    </div>
+
+<!--         /Regulation      -->
+  </section>
+
+  <footer>
+    <div id="footer" class="w-full h-auto mt-20 bg-cover " style="background-image: url(../imagenes/Footer.png);">
+      <div class="grid grid-cols-6 gap-2 py-12 ml-6 px-16 ">
+        <div class="">
+          <p class=" text-2xl text-primary font-bold">Vaccination</p>
+          <p class=" text-base text-terciary font-semibold py-2">Our goal is to help the world free from the ongoing pandemic</p>
+        </div>
+        <div class=""></div>
+        <div class=""></div>
+        <div class="">
+          <p class=" text-xl text-secondary font-bold">About</p>
+          <a href="#footer" class="bottonFooter">About Us</a>
+          <a href="#footer" class="bottonFooter">Features</a>
+          <a href="#footer" class="bottonFooter">News & Blog</a>
+        </div>
+        <div class="">
+          <p class=" text-xl text-secondary font-bold">Company</p>
+          <a href="#footer" class="bottonFooter">How We work?</a>
+          <a href="#footer" class="bottonFooter">Capital</a>
+          <a href="#footer" class="bottonFooter">Security</a>
+        </div>
+        <div class="">
+          <p class=" text-xl text-secondary font-bold">Support</p>
+          <a href="#footer" class="bottonFooter">FAQs</a>
+          <a href="#footer" class="bottonFooter">Support Center</a>
+          <a href="#footer" class="bottonFooter">Contact Us</a>
+        </div>
+        <div class="col-span-3 ">
+          <p class=" text-base text-terciary font-semibold mt-12">@2021Vaccination.All rights recerved</p>
+        </div>
+        <div class="col-span-3 ">
+          <p class=" text-base text-terciary font-semibold mt-12 text-right">Terms & Agreements | Privacy Policy</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </footer>
+  
+
+</body>
+</html>

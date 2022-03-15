@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.buttonsNavBar{
+    @apply font-semibold block mt-4 lg:inline-block lg:mt-2 text-terciary  mr-8 transition duration-500 ease-in-out hover:text-primary transform hover:scale-110
+}
+
+.buttonPrincipal{
+    @apply w-36 rounded-md text-lg text-white font-semibold  bg-backbotton shadow-lg shadow-blue-500/50  transition  duration-500 ease-in-out hover:bg-primary transform hover:-translate-y-1 hover:scale-110
+}
+.Card{
+    @apply w-60 h-72 shadow-md rounded-lg ml-8 mt-4 flex-none transform transition-all hover:scale-105 hover:shadow-2xl hover:shadow-blue-200/60
+}
+
+.cardSmall{
+    @apply w-1/2 h-14 flex bg-white border border-blue-100 rounded-lg ml-24 mt-4 transform transition-all hover:scale-105 hover:shadow-lg hover:shadow-blue-100/50
+}
+
+.cardPhone{
+    @apply w-52 h-44 border border-blue-100 shadow-md rounded-lg ml-8 mt-4 flex-none transform transition-all hover:scale-105 hover:shadow-2xl hover:shadow-blue-200/60
+}
+
+.iconEffect{
+    @apply transform transition-all hover:scale-105 hover:shadow-2xl hover:shadow-blue-600/50 hover:border hover:border-white
+}
+
+.iconColorBlue{
+    color: #3555d3;
+    
+}
+.iconColorYellow{
+    color: #ffd015;
+    
+}
+
+.iconSize{
+    font-size: 20px;
+}
+.bottonFooter{
+    @apply text-base text-terciary font-semibold block py-2 transition-all ease-in-out hover:text-secondary transform hover:scale-105
+}

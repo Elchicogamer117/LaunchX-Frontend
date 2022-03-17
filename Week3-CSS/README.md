@@ -1,6 +1,6 @@
 # Semana3LaunchX-CSS
 
-Actividad: Clonación de la siguiente [pagina de vacunación](./landingVacunaci%C3%B3n.png) diseñada por [Adhiari Subekti](https://dribbble.com/Adhiari_is)
+Actividad: Clonación de la siguiente [pagina de vacunación](./landingVacunaci%C3%B3n.png) diseñada por [Adhiari Subekti](https://dribbble.com/Adhiari_is).
 
 Descripción:
 

@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'Bello Pro' ;
+    src: url('Bello Pro.otf');
+}
 
 .tituloPrincipal{
     font-family: 'Bello Pro';
